@@ -6,26 +6,38 @@
     <title>tazcatclock-site | 虎斑喵喵的小站</title>
     <style>
         body {
-            font-family: 'Courier New', monospace;
+            font-family: "Courier New", monospace;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 0 20px;
             background: #f0f4f8;
             color: #2d3748;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 2rem;
         }
         h1 {
-            color: #2b6cb0;
-            border-bottom: 2px solid #2b6cb0;
-            padding-bottom: 0.5rem;
+            color: #3182ce;
+            border-bottom: 3px solid #3182ce;
+            padding-bottom: 10px;
         }
-        .cat-emoji {
-            font-size: 2rem;
+        .emoji-big {
+            font-size: 100px;
+            margin: 20px 0;
+            animation: bounce 2s infinite;
+        }
+        .emoji-line {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
         }
     </style>
 </head>
 <body>
-    <h1>😸 tazcatclock-site <span class="cat-emoji">😸</span></h1>
+    <h1>😸 tazcatclock-site 😸</h1>
+    <div class="emoji-big">😸🆚🦔</div>
     <p>歡迎來到虎斑喵喵的 MIT 風格小站！</p>
-    <p>這裡是我的第一個 GitHub Pages 網站 🦔✨</p>
+    <p>這裡是我和我的小刺蝟的秘密基地 🐾</p>
+    <div class="emoji-line">🦔</div>
 </body>
 </html>
